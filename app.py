@@ -17,8 +17,8 @@ def home_page():
                 "current_day": datetime.utcnow().strftime('%A'),
                 "utc_time": datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC'),
                 "Track": track,
-                "github_file_url": "",
-                "github_repo_url": "",
+                "github_file_url": "https://github.com/mayorD19/API_TASK1/blob/main/app.py",
+                "github_repo_url": "https://github.com/mayorD19/API_TASK1",
                 "status_code": 200}
     json_dump = json.dumps(data_set)
 
